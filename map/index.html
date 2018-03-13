@@ -1,0 +1,26 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.4&key=9fc40534f5b234ff2d08a29bfa7b9deb&plugin=AMap.Autocomplete,AMap.PlaceSearch"></script>
+    <script src="//webapi.amap.com/ui/1.0/main.js?v=1.0.10"></script>
+    <link rel="stylesheet" href="css/map.css"/>
+    <title>我的位置</title>
+  </head>
+  <body>
+    <div class="map-search">
+      <input type="text" class="map-search-input" id="search" placeholder="搜素"/>
+    </div>
+    <div id="container" class="map-container" ></div>
+    <div class="map-pos">
+      <ul class="map-pos-list" id="map-pos-list">
+        <!-- <li class="map-pos-item">
+          <div class="map-pos-item-name map-active">康家园小区</div>
+          <span class="map-pos-item-address map-active">康家园小区</span>
+        </li> -->
+      </ul>
+    </div>
+    <script src="js/map.js"></script>
+  </body>
+</html>
